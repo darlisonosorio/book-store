@@ -1,0 +1,14 @@
+@import '../../../variables.scss';
+
+.img {
+  width: 100%;
+  height: 200px;
+}
+
+.card-content {
+  padding: $padding;
+
+  label {
+    font-size: .9rem;
+  }
+}

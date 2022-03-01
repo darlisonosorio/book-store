@@ -1,0 +1,17 @@
+.my-checkbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  height: 24px;
+
+  input {
+    margin: 0;
+  }
+
+  label {
+    margin-left: 8px;
+    font-size: .9rem;
+    line-height: .8rem;
+  }
+}

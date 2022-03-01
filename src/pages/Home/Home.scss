@@ -1,0 +1,29 @@
+@import '../../variables.scss';
+
+.my-content {
+  position: relative;
+  height: calc(100vh - #{$toolbar-height});
+  top: $toolbar-height;
+  padding: $padding-lg;
+  
+  .welcome-label {
+    font-size: 1.3em;
+    margin-left: $padding-sm;
+    margin-bottom: $padding-lg;
+  }
+
+  .items-list {
+    margin-top: $padding-xl;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: $padding-lg;
+
+    .card {
+      transition: all .2s ease-in-out;
+      
+      &:hover {
+        transform: scale(1.05);
+      }
+    }
+  }
+}
